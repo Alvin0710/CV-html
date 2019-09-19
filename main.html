@@ -7,30 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="CVStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>My CV</title>
 </head>
 
 <body>
     <center>
         <table class="main">
             <tr class="main">
+                <th>
+                    <div style="margin: 2rem;"></div>
+                </th>
                 <!-- ==========================================================================
                                                 First Column
                 ========================================================================== -->
-                <th>
+                <th style="background-color: black">
                     <img id="profile" src="zaynmalik.jpg" alt="myphoto">
 
                     <!-- ====================================================================================
                                                         PROFILE
                         =================================================================================== -->
                     <div id="protitle">
-                        <span class="border" style="font: size 20px; color:black;">PROFILE</span>
+                        <span class="borderLeft" style="font: size 20px; color:white;">PROFILE</span>
                     </div>
                     <table id="firstcolumn">
-                        <th>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates repellendus odit porro
-                            molestias. Deleniti at ea dolorem reprehenderit odio porro culpa mollitia voluptatem
-                            dignissimos tempora aperiam, fuga, ab provident? Fugiat?
+                        <th id="inProfile">
+                            Hello! my name is Alvin Irwanto, I was born on October 7th, 2000, in Wonogiri, Central Java.
+                            My address is KH Mas Mansyur Street, No. 71 RT.002/010, Beautiful Kunciran, Pinang,
+                            Tangerang City, Banten.
+                            I love to learn something new, especially in digital technology. I like to make something
+                            that has a beautiful UI, in mobile or desktop application also website design. I
+                            love design, so I learned about making that with tools like Adobe Illustrator and
+                            Inkscape. I can do hard work as soon as that still is my passion.
                         </th>
                     </table>
 
@@ -38,8 +45,23 @@
                                                         SKILLS
                         =================================================================================== -->
                     <div id="skilltitle">
-                        <span class="border" style="font: size 20px; color:black;">SKILLS</span>
+                        <span class="borderLeft" style="font: size 20px; color:white;">SKILLS</span>
                     </div>
+                    <div>
+                        <h4 class="skill">HTML & CSS <progress value="40" max="100" style="float: right;"></progress>
+                        </h4>
+                        <h4 class="skill">Flutter<progress id="inProgress2" value="55" max="100"
+                                style="float: right;"></progress></h4>
+                        <h4 class="skill">Inkscape<progress id="inProgress3" value="60" max="100"
+                                style="float: right;"></progress></h4>
+                        <h4 class="skill">Adobe Illustrator<progress id="inProgress4" value="45" max="100"
+                                style="float: right;"></progress>
+                        </h4>
+                    </div>
+
+                    <!-- <div id="skilltitle">
+                        <span class="borderLeft" style="font: size 20px; color:white;">ORGANIZATION</span>
+                    </div> -->
                 </th>
 
 
@@ -53,7 +75,7 @@
                     <!-- ====================================================================================
                                                         TABLE CONTACT
                         =================================================================================== -->
-                    <table class="second">
+                    <table>
                         <tr>
                             <th><img class="logo" style="height: 2rem;
                                 width: 2rem;" src="gmail-icon-black-and-white-11.jpg" alt="email"></th>
@@ -63,12 +85,13 @@
                             <th class="text">082110411168</th>
                         </tr>
                         <tr>
-                            <th><img class="logo" style="height: 1.5rem; width: 1.5rem;"
-                                    src="5847f98fcef1014c0b5e48c0.png" alt="GitHub"></th>
+                            <th><a href="https://github.com/Alvin0710"><img class="logo"
+                                        style="height: 1.5rem; width: 1.5rem;" src="5847f98fcef1014c0b5e48c0.png"
+                                        alt="GitHub"></a></th>
                             <th class="text">Alvin0710</th>
-                            <th><img class="logo" style="height: 1.5rem;
+                            <th><a href="https://www.linkedin.com/in/alvin-irwanto-52469a183/"><img class="logo" style="height: 1.5rem;
                                 width: 1.5rem;" src="19-193657_facebook-linkedin-youtube-linked-in-icon-black.png"
-                                    alt="LinkedIn">
+                                        alt="LinkedIn"></a>
                             </th>
                             <th class="text">Alvin Irwanto</th>
                         </tr>
@@ -123,6 +146,65 @@
                         =================================================================================== -->
                         <div id="expetitle">
                             <span class="border" style="font: size 20px; color:black;">EXPERIENCE</span>
+                        </div>
+                        <div style="text-align: left; margin-top:2rem; margin-left: 1rem; font-size: 20px;">
+                            <li>Made a Mockup Application using Flutter</li>
+                            <li>Made an application for counting BMI and </li>
+                            <h4 style="margin-left:27px; margin-top:0px; margin-bottom:0px;">ideal height of someone
+                                using Flutter
+                            </h4>
+                            <li>Made Web about Ngaji together</li>
+                            <li>Design for Instagram Post in Rohis Faculty</li>
+                            <h4 style="margin-left:27px; margin-top:0px; margin-bottom:0px;">of Computer Science
+                            </h4>
+                        </div>
+
+                        <div id="langtitle">
+                            <span class="border" style="font: size 20px; color:black;">LANGUAGE ABILITY</span>
+                        </div>
+                        <br>
+                        <h3 class="lang" style="text-align: left;">Bahasa
+                            <div class="langcircle">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="nocircle"></div>
+                                <div class="nocircle"></div>
+                            </div>
+                        </h3><br>
+                        <h3 class="lang" style="text-align: left;">English
+                            <div class="langcircle">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="nocircle"></div>
+                                <div class="nocircle"></div>
+                                <div class="nocircle"></div>
+                                <div class="nocircle"></div>
+                                <div class="nocircle"></div>
+                            </div>
+                        </h3><br>
+                        <h3 class="lang" style="text-align: left;">Javanese
+                            <div class="langcircle">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="nocircle"></div>
+                                <div class="nocircle"></div>
+                                <div class="nocircle"></div>
+                                <div class="nocircle"></div>
+                            </div>
+                        </h3><br>
                         </div>
                     </table>
                 </th>
